@@ -13,7 +13,7 @@ const ShopItem = ({ id, name, price, image, cart }) => {
   const { addCart } = useContext(GlobalContext);
   return (
     <Card style={{ maxWidth: 300 }}>
-      <CardMedia image={require(`${image}`)} component="img" title={name} />
+      <CardMedia image={image} component="img" title={name} />
       <CardContent>
         <Typography variant="body2" color="textSecondary" gutterBottom>
           {name}

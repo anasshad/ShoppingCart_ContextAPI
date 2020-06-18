@@ -1,14 +1,14 @@
 import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
-import "../assets/shoe1.jpg";
-import "../assets/shoe2.jpg";
-import "../assets/shoe3.jpg";
-import "../assets/shoe4.jpg";
-import "../assets/shoe5.jpg";
-import "../assets/shoe6.jpg";
-import "../assets/shoe7.jpg";
-import "../assets/shoe8.jpg";
+import Shoe1 from "../assets/shoe1.jpg";
+import Shoe2 from "../assets/shoe2.jpg";
+import Shoe3 from  "../assets/shoe3.jpg";
+import Shoe4 from  "../assets/shoe4.jpg";
+import Shoe5 from  "../assets/shoe5.jpg";
+import Shoe6 from  "../assets/shoe6.jpg";
+import Shoe7 from  "../assets/shoe7.jpg";
+import Shoe8 from  "../assets/shoe8.jpg";
 
 const initialState = {
   items: [
@@ -16,56 +16,56 @@ const initialState = {
       id: 1,
       name: "Some Shoes",
       price: 45.78,
-      image: "../assets/shoe1.jpg",
+      image: Shoe1,
       cart: false
     },
     {
       id: 2,
       name: "Fancy Shoes",
       price: 32.45,
-      image: "../assets/shoe2.jpg",
+      image: Shoe2,
       cart: false
     },
     {
       id: 3,
       name: "Good Shoes",
       price: 90.22,
-      image: "../assets/shoe3.jpg",
+      image: Shoe3,
       cart: false
     },
     {
       id: 4,
       name: "Fantastic Shoes",
       price: 88.23,
-      image: "../assets/shoe4.jpg",
+      image: Shoe4,
       cart: false
     },
     {
       id: 5,
       name: "Splendid Shoes",
       price: 21.66,
-      image: "../assets/shoe5.jpg",
+      image: Shoe5,
       cart: false
     },
     {
       id: 6,
       name: "Comfty Shoes",
       price: 67.23,
-      image: "../assets/shoe6.jpg",
+      image: Shoe6,
       cart: false
     },
     {
       id: 7,
       name: "Joy Shoes",
       price: 92.34,
-      image: "../assets/shoe7.jpg",
+      image: Shoe7,
       cart: false
     },
     {
       id: 8,
       name: "Great Shoes",
       price: 24.56,
-      image: "../assets/shoe8.jpg",
+      image: Shoe8,
       cart: false
     }
   ],
