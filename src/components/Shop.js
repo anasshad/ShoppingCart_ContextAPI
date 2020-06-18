@@ -9,9 +9,8 @@ const Shop = () => {
   return (
     <Grid container spacing={2} justify="center">
       {context.items.map((item, index) => (
-        <Grid item>
+        <Grid item key={index}>
           <ShopItem
-            key={index}
             id={item.id}
             name={item.name}
             price={item.price}
