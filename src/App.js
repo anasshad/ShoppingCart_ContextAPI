@@ -1,5 +1,4 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import Header from "./components/Header";
 import Shop from "./components/Shop";
 import Cart from "./components/Cart";
