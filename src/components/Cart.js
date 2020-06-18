@@ -60,7 +60,7 @@ const Cart = () => {
                     <Avatar
                       variant="square"
                       alt={item.name}
-                      src={require(item.image)}
+                      src={item.image}
                       style={{
                         width: "70px",
                         height: "60px",
